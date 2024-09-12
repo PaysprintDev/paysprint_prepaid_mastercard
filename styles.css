@@ -112,30 +112,44 @@ body {
         }
     }
 
-    section.about-paysprint {
-        padding: 60px 50px;
+    section.benefits {
+        background-color: #F4F7FA;
+        padding: 50px 60px;
         display: flex;
-        justify-content: space-between;
-        gap: 45px;
-        background-image: url('./Images/noise_texture_bg.png');
-        img {
-            border-radius: 170px 10px 170px 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        h4 {
+            font: 700 48px Nunito;
+            font-family: sans-serif;
+            color: #161C2D;
+            padding: 0rem 15rem;
+            text-align: center;
         }
-        div {
-            display: flex;
-            flex-direction: column;
-            gap: 45px;
-            h5 {
-                font: 600 50px Abril Fatface;
-            }
-            p {
-                font-size: 28px;
-                font-family: Nunito Sans;
+        main {
+            padding: 0px 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px 30px;
+            div.each {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                h6 {
+                    font: 700 22px Nunito;
+                    font-family: monospace;
+                    text-align: center;
+                    color: #161C2D;
+                }
+                p {
+                    font: 400 18px Nunito;
+                    font-family: sans-serif;
+                    letter-spacing: 1px;
+                    color: #161C2D;
+                }
             }
         }
     }
-
-
 
     footer {
         padding: 60px 65px;
