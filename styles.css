@@ -151,6 +151,45 @@ body {
         }
     }
 
+    section.click {
+        padding: 50px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        background-color: #FFB800;
+        div.imgs {
+            display: grid;
+            gap: 70px;
+            grid-template-columns: 100px 100px 100px 100px;
+            .img_two {
+                z-index: 1;
+                position: relative;
+                top: 10rem;
+                left: 6.5rem;
+            }
+        }
+        div.txts {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            h5 {
+                font: 700 48px Nunito;
+                font-family: sans-serif;
+            }
+            button {
+                padding: 20px 65px;
+                color: #fff;
+                border: none;
+                font-size: 18px;
+                border-radius: 10px;
+                background-color: #000;
+                align-self: flex-start;
+                cursor: pointer;
+            }
+        }
+    }
+
     footer {
         padding: 60px 65px;
         background-color: #000;
