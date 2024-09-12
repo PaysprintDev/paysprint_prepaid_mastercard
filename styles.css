@@ -98,17 +98,17 @@ body {
                 background-color: #FFB800;
                 border-radius: 10px;
                 border: none;
-                padding: 10px 65px;
+                padding: 20px 65px;
                 font-weight: bold;
                 font-size: 20px;
                 margin-top: 10px;
             }
         }
         img.grp {
-            padding: 40px 100px;
+            padding: 25px 70px;
             padding-left: unset;
             padding-bottom: unset;
-            width: 445px;
+            width: 575px;
         }
     }
 
@@ -135,7 +135,7 @@ body {
         }
     }
 
-    
+
 
     footer {
         padding: 60px 65px;
