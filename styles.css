@@ -346,18 +346,13 @@ body {
             }
         }
 
-        section.about-paysprint {
-            img {
-                width: 40%;
+        section.benefits {
+            h4 {
+                padding: 0rem 5rem;
             }
-            div {
-                justify-content: space-evenly;
-                h5 {
-                    font-size: 40px;
-                }
-                p {
-                    font-size: 21px;
-                }
+            main {
+                /* grid-template-columns: repeat(2, 1fr); */
+                padding: unset;
             }
         }
     }
@@ -366,6 +361,15 @@ body {
 
 @media screen and (max-width: 1023px) {
     .prepaid_mastercard {
+
+        section.benefits {
+            h4 {
+                padding: unset;
+            }
+            main {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
         footer {
             padding: 50px;
@@ -398,8 +402,9 @@ body {
         }
 
         section.head {
+            gap: unset;
             img.grp {
-                padding: 20px;
+                padding: unset;
             }
             div.all {
                 align-items: flex-start;
@@ -424,6 +429,10 @@ body {
                     }
                 }
             }
+        }
+
+        section.click {
+            flex-direction: column;
         }
 
         footer {
@@ -488,19 +497,9 @@ body {
             }
         }
 
-        section.about-paysprint {
-            padding: 40px;
-            flex-direction: column;
-            gap: 25px;
-            img {
-                width: 85%;
-                align-self: center;
-            }
-            div {
-                gap: 15px;
-                p {
-                    font-size: 20px;
-                }
+        section.benefits {
+            main {
+                grid-template-columns: repeat(1, 1fr);
             }
         }
 
@@ -524,6 +523,30 @@ body {
 
 @media screen and (max-width: 600px) {
     .prepaid_mastercard {
+
+        section.benefits {
+            h4 {
+                font-size: 30px;
+            }
+        }
+        section.click {
+            div.imgs {
+                grid-template-columns: 0px 100px 100px 25px;
+                .img_one {
+                    width: 400px;
+                }
+                .img_two {
+                    top: 7rem;
+                    left: 10rem;
+                }
+            }
+            div.txts {
+                h5 {
+                    font-size: 30px;
+                }
+            }
+        }
+
         footer {
             div.first {
                 flex-direction: column;
