@@ -421,7 +421,7 @@ body {
             div.elements {
                 padding: unset;
                 h2 {
-                    font-size: 40px;
+                    font-size: 35px;
                 }
                 button {
                     padding: 15px 30px;
@@ -494,10 +494,17 @@ body {
 @media screen and (max-width: 700px) {
     .prepaid_mastercard {
         header {
+            width: 100%;
             div {
-                padding: 15px 20px;
+                padding: 15px 5px;
+                img {
+                    width: 150px;
+                }
                 ul {
-                    gap: 35px;
+                    margin: unset;
+                    padding: unset;
+                    justify-content: space-between;
+                    gap: 15px;
                 }
             }
         }
@@ -507,7 +514,7 @@ body {
             padding: 40px;
             gap: 20px;
             img.grp {
-                width: 480px;
+                width: 100%;
                 align-self: center;
             }
 
@@ -540,9 +547,37 @@ body {
         }
 
         section.benefits {
-            main {
-                grid-template-columns: repeat(1, 1fr);
+            h4 {
+                font-size: 30px;
             }
+            main {
+                grid-template-columns: repeat(2, 1fr);
+                div.each {
+                    gap: 20px;
+                    align-items: flex-start;
+                    h6 {
+                        font-weight: 800;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        section.click {
+            div.txts {
+                h5 {
+                    font-size: 30px;
+                }
+            }
+            button {
+                padding: 20px 30px;
+            }
+        }
+
+        section.head, section.benefits, section.click {
+            padding: 30px;
         }
 
         footer {
@@ -609,7 +644,6 @@ body {
         header {
             div {
                 ul {
-                    gap: 30px;
                     li {
                         a {
                             line-height: 20px;
@@ -622,6 +656,32 @@ body {
 
         section.head {
             width: unset;
+        }
+
+        section.benefits {
+            main {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        section.click {
+            div.imgs {
+                .img_one {
+                    width: 300px;
+                }
+                .img_two {
+                    top: 5rem;
+                    left: 8rem;
+                }
+            }
+            div.txts {
+                h5 {
+                    font-size: 25px;
+                }
+                button {
+                    padding: 20px 30px;
+                }
+            }
         }
 
         footer {
