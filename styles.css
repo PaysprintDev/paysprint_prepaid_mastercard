@@ -156,11 +156,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 60px;
+        gap: 50px;
         background-color: #FFB800;
         div.imgs {
             display: grid;
-            gap: 70px;
+            gap: 50px;
             grid-template-columns: 100px 100px 100px 100px;
             .img_two {
                 z-index: 1;
@@ -576,6 +576,10 @@ body {
                     }
                 }
             }
+        }
+
+        section.head {
+            width: unset;
         }
 
         footer {
