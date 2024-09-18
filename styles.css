@@ -137,7 +137,7 @@ body {
                 gap: 25px;
                 h6 {
                     font: 700 22px Nunito;
-                    font-family: monospace;
+                    font-family: sans-serif;
                     text-align: center;
                     color: #161C2D;
                 }
