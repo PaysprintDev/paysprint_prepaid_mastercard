@@ -102,6 +102,7 @@ body {
                 font-weight: bold;
                 font-size: 20px;
                 margin-top: 10px;
+                cursor: pointer;
             }
         }
         img.grp {
@@ -205,8 +206,8 @@ body {
             .img-links {
                 flex: 0 0 30%;
                 .footer-logo {
-                    width: auto;
-                    height: 65px;
+                    width: 202px;
+                    height: 190px;
                 }
                 div {
                     padding: 5px 35px;
