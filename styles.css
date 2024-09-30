@@ -31,7 +31,7 @@ body {
             justify-content: space-between;
             align-items: center;
             img {
-                width: 180px;
+                width: 95px;
             }
             ul {
                 list-style: none;
@@ -497,10 +497,7 @@ body {
         header {
             width: 100%;
             div {
-                padding: 15px 5px;
-                img {
-                    width: 150px;
-                }
+                padding: 15px;
                 ul {
                     margin: unset;
                     padding: unset;
